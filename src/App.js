@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
-import { withRouter } from 'react-router-dom'
-import { Switch, Route } from 'react-router-dom'
+import { withRouter } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
 class App extends Component {
-  render()
-  {
+  render() {
     return (
       <div className='App'>
-        <Switch>
-
-        </Switch>
+        {/* Styling for the App component */}
+        <style jsx>{``}</style>
+        <Switch />
       </div>
-    )
+    );
   }
 }
 
