@@ -4,14 +4,17 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-// Bootstrap essentials
-import 'bootstrap/dist/css/bootstrap-grid.css';
+// Normalize
+import 'normalize.css';
 
 // Bulma
 import 'bulma/css/bulma.css';
 
-// CSS
-import 'normalize.css';
+// Bootstrap essentials
+import 'bootstrap/dist/css/bootstrap-grid.css';
+
+// Main styling
+import './index.css'
 
 ReactDOM.render(
   <Router>
