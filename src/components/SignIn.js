@@ -13,8 +13,6 @@ class SignIn extends Component {
     };
   }
 
-  componentDidMount() {}
-
   render() {
     return (
       <Fragment>
@@ -34,6 +32,8 @@ class SignIn extends Component {
                   <label className='label'>Username</label>
                   <div class='control has-icons-left'>
                     <input
+                      autoFocus
+                      name='username'
                       id='username'
                       className='input is-success'
                       type='text'
@@ -48,7 +48,7 @@ class SignIn extends Component {
                   <label className='label'>Password</label>
                   <div class='control has-icons-left'>
                     <input
-                      autoFocus
+                      name='password'
                       id='password'
                       className='input is-success'
                       type='password'

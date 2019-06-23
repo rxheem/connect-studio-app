@@ -1,1 +1,14 @@
 /* Index.css - main styling to override */
+
+input {
+    border-color: #FDFDFD!important;
+    width: 70%!important;
+}
+
+input:focus {
+  border-color: darkgrey!important;
+}
+
+.field {
+  margin: 0px 10px;
+}
