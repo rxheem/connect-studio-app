@@ -8,10 +8,18 @@ import './App.css';
 import HomePage from './components/HomePage';
 import LogonPage from './components/logon/LogonPage';
 
+// Views import
+import OSAndSocialIcons from './views/OSAndSocialIcons'
+import OuterNavigation from './views/OuterNavigation'
+
 class App extends Component {
   render() {
     return (
       <div id='App' className='App'>
+
+      <Route path='/' component={OSAndSocialIcons} />
+      <Route path='/' component={OuterNavigation} />
+      
         {/* Switch */}
         <Switch>
           <Route exact path='/' component={HomePage} />

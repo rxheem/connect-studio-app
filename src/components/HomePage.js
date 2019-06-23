@@ -5,7 +5,7 @@ class HomePage extends Component {
   render() {
     return (
       <div id='Home'>
-        <span />
+        Home Page
       </div>
     );
   }
