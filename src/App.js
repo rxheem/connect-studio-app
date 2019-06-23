@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import { withRouter, Route, Switch } from 'react-router-dom';
-import { Switch, Route } from 'react-router-dom';
 
 // CSS
 import './App.css';
 
 // Components import
-import Home from './components/Home';
-import Logon from './components/Logon';
+import HomePage from './components/HomePage';
+import LogonPage from './components/logon/LogonPage';
 
 class App extends Component {
   render() {
@@ -15,8 +14,8 @@ class App extends Component {
       <div id='App' className='App'>
         {/* Switch */}
         <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/logon/' component={Logon} />
+          <Route exact path='/' component={HomePage} />
+          <Route exact path='/logon/' component={LogonPage} />
         </Switch>
       </div>
     );

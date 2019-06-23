@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { withRouter } from 'react-router-dom';
 import { Col, Row } from 'react-bootstrap';
 
-class Logon extends Component {
+class LogonPage extends Component {
   constructor(props) {
     super(props);
 
@@ -39,4 +39,4 @@ class Logon extends Component {
   }
 }
 
-export default withRouter(Logon);
+export default withRouter(LogonPage);
