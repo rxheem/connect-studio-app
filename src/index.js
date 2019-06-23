@@ -14,7 +14,7 @@ import 'bulma/css/bulma.css';
 import 'bootstrap/dist/css/bootstrap-grid.css';
 
 // Main styling
-import './index.css'
+import './index.css';
 
 ReactDOM.render(
   <Router>

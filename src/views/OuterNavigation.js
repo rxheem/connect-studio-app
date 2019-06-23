@@ -2,18 +2,16 @@ import React, { Fragment } from 'react';
 
 const OuterNavigation = props => {
   return (
-    <header>
-      <div id='OuterNavigation'>
-        <nav
-          role='navigation'
-          className='navbar is-info'
-          aria-label='main navigation'
-          aria-expanded='false'
-        >
-          <span />
-        </nav>
-      </div>
-    </header>
+    <Fragment>
+      {/* Important messages displayed here */}
+      <section>
+        <div className='navbar is-info'>
+          <div />
+        </div>
+      </section>
+
+      {/* main Navigation */}
+    </Fragment>
   );
 };
 
