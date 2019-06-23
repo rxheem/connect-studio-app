@@ -1,22 +1,23 @@
 import React, { Component } from 'react';
-import { withRouter } from 'react-router-dom';
+import { withRouter, Route, Switch } from 'react-router-dom';
 import { Switch, Route } from 'react-router-dom';
 
 // CSS
-import './App.css'
+import './App.css';
 
 // Components import
-import SignIn from './components/SignIn'
-
+import Home from './components/Home';
+import Logon from './components/Logon';
 
 class App extends Component {
-
-
-
   render() {
     return (
-      <div className='App'>
-        <SignIn />
+      <div id='App' className='App'>
+        {/* Switch */}
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/logon/' component={Logon} />
+        </Switch>
       </div>
     );
   }
