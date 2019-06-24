@@ -11,6 +11,7 @@ const OuterNavigation = props => {
       </section>
 
       {/* main Navigation */}
+      <br />
     </Fragment>
   );
 };
